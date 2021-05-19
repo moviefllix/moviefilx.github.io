@@ -1,0 +1,33 @@
+@import url( ' https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navigition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.navigition ul{
+    position: relative;
+}
+.navigition ul li{
+    text-align: center;
+    list-style:none ;
+}
+.navigition ul li a{
+    color: #333;
+    text-decoration: none;
+    font-size: 3em;
+    padding: 5px 20px;
+    display: inline-flex;
+    font-weight: 700;
+    transition: 1.2s;
+}
+
+
